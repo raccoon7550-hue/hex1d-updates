@@ -3,14 +3,14 @@
   "date": "2026-11-02",
   "notes": [
     "전체: Ctrl+Z로 셀 입력·삭제·붙여넣기·채우기와 케이스 추가 되돌리기 가능",
+    "Case Manager 줌 인/아웃 시 행 높이도 함께 조절",
     "신규: Cabin Cooler 1D Simulator 추가 (2 Row, 냉각/난방 모드)",
     "Chiller: 냉각수-냉각수 모델 추가, 흐름 방향(Counter/Parallel) 선택",
     "EVAP: j_b 상한 1.2로 확대, 냉매 ΔP 막대 2상/과열 구분",
+    "EVAP: 냉매 노즐 ΔP 모델 선택 추가 (Fixed nozzle K_n 권장 / Ratio per case)",
     "RAD: 2Row 모델 추가, HMG 성적서에 ε/NTU/Cr/Qmax 추가",
-    "ATOC: HMG 성적서 출력에 ε/NTU/Cr/Qmax 추가",
-    "COND: HMG 성적서 출력에 공기측 입·출구 압력 추가",
+    "ATOC·COND: HMG 성적서 출력 항목 추가 (ATOC ε/NTU/Cr/Qmax, COND 공기측 입·출구 압력)",
     "P-h: 엑셀에서 P/T/h/s/x 열 붙여넣기, 케이스 추가 시 왼쪽 케이스 조건 승계",
-    "A/C: 케이스 이름 변경, 엑셀 P-h points에 온도 열 추가",
-    "Case Manager 줌 인/아웃 시 행 높이도 함께 조절"
+    "A/C: 케이스 이름 변경, 엑셀 P-h points에 온도 열 추가, P-h 선도 Show values로 상태점 값 표시, EVAP 고정 노즐 파일 호환"
   ]
 }
