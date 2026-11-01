@@ -7,12 +7,12 @@
     "전체: 결과 엑셀 내보내기 파일을 열 때 나던 복구 경고 수정",
     "전체: 로딩창과 올인원 런처 디자인 변경",
     "신규: Cabin Cooler 1D Simulator 추가 (2 Row, 냉각/난방 모드)",
-    "Chiller: 냉각수-냉각수 모델 추가, 흐름 방향(Counter/Parallel) 선택, 1D Results 항목 순서 변경(성능 > ΔP > 출구온도, 엑셀 내보내기 동일)",
-    "EVAP: j_b 상한 1.2로 확대, 냉매 ΔP 막대 2상/과열 구분, 냉매 노즐 ΔP 모델 선택(Fixed nozzle K_n 권장 / Ratio per case), 첫 화면에 R134a 해석 예제(case 1~10) 제공",
+    "Chiller: 냉각수-냉각수 모델 추가, 흐름 방향(Counter/Parallel) 선택",
+    "EVAP: j_b 상한 1.2로 확대, 냉매 ΔP 막대 2상/과열 구분, 냉매 노즐 ΔP 모델 선택",
     "RAD: 2Row 모델 추가, 2 Pass(U-flow) 계산 오류 수정, HMG 성적서에 ε/NTU/Cr/Qmax 추가",
-    "RAD·ATOC·Cabin Cooler: ε-NTU 식을 Both unmixed 식으로 통일 (J.W. Han 식 제거), Profiles 탭 ε 차트에 NTU·Cr 보조축 추가",
+    "RAD·ATOC·Cabin Cooler: ε-NTU 식을 Both unmixed 식으로 통일 (J.W. Han 제거)",
     "ATOC·COND: HMG 성적서 출력 항목 추가 (ATOC ε/NTU/Cr/Qmax, COND 공기측 입·출구 압력)",
-    "P-h: 엑셀에서 P/T/h/s/x 열 붙여넣기, 케이스 추가 시 왼쪽 케이스 조건 승계",
-    "A/C: 케이스 이름 변경, 엑셀 P-h points에 온도 열 추가, P-h 선도 Show values로 상태점 값 표시, EVAP 고정 노즐 파일 호환"
+    "P-h: 엑셀 P/T/h/s/x 열 붙여넣기, 케이스 추가 시 왼쪽 케이스 조건 승계",
+    "A/C: 엑셀 P-h points에 온도 열 추가, P-h 선도 Show values 수정, EVAP 고정 노즐 파일 호환"
   ]
 }
