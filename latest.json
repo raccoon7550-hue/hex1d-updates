@@ -1,18 +1,9 @@
 {
-  "version": "1.1",
-  "date": "2026-11-02",
+  "version": "1.2",
+  "date": "2026-11-06",
   "notes": [
-    "전체: Ctrl+Z로 셀 입력·삭제·붙여넣기·채우기와 케이스 추가 되돌리기 가능",
-    "전체: Case Manager 줌 인/아웃 시 행 높이도 함께 조절",
-    "전체: 결과 엑셀 내보내기 파일을 열 때 나던 복구 경고 수정",
-    "전체: 로딩창과 올인원 런처 디자인 변경",
-    "신규: Cabin Cooler 1D Simulator 추가 (2 Row, 냉각/난방 모드)",
-    "Chiller: 냉각수-냉각수 모델 추가, 흐름 방향(Counter/Parallel) 선택",
-    "EVAP: j_b 상한 1.2로 확대, 냉매 ΔP 막대 2상/과열 구분, 냉매 노즐 ΔP 모델 선택",
-    "RAD: 2Row 모델 추가, 2 Pass(U-flow) 계산 오류 수정, HMG 성적서에 ε/NTU/Cr/Qmax 추가",
-    "RAD·ATOC·Cabin Cooler: ε-NTU 식을 Both unmixed 식으로 통일 (J.W. Han 제거)",
-    "ATOC·COND: HMG 성적서 출력 항목 추가 (ATOC ε/NTU/Cr/Qmax, COND 공기측 입·출구 압력)",
-    "P-h: 엑셀 P/T/h/s/x 열 붙여넣기, 케이스 추가 시 왼쪽 케이스 조건 승계",
-    "A/C: 엑셀 P-h points에 온도 열 추가, P-h 선도 Show values 수정, EVAP 고정 노즐 파일 호환"
+    "Case 중간에 추가 Case 삽입가능 -> Case 마우스 우클릭 -> Add case at the left",
+    "엑셀에서 붙여넣은 천 단위 쉼표 숫자(예: 10,000)를 올바르게 인식 (이전에는 10.0으로 입력됨)",
+    "올인원 런처 하단에, 통계기록 문구추가 Usage data (login time, version, user code) is recorded to improve future versions"
   ]
 }
