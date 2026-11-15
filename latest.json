@@ -5,6 +5,6 @@
     "RAD: Re0 난류 보정계수 추가, Fh_c 자동 보정",
     "ATOC: RAD와 동일하게 Re0 / Fh_o 자동 보정",
     "Chiller: 시험 조건에 '냉매유량 고정' 추가",
-    "COND/OHX/RAD/ATOC/AC/Cabin: 공기측 dPa 계산 방식 통일"
+    "COND/OHX/RAD/ATOC/AC/Cabin: 공기측 dPa 계산 방식 통일(엑셀결과와 상이함)"
   ]
 }
